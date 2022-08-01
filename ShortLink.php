@@ -17,7 +17,7 @@ class ShortLink extends Component {
             ->addHeaders(['content-type' => 'application/x-www-form-urlencoded'])
             ->setUrl('api/convert')
             ->setData([
-                'token' => '***********************8',
+                'token' => '***********************',
                 'url' => $url,
                 'is_public' => true
             ])
